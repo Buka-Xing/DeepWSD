@@ -1,5 +1,6 @@
 This folder contains the optimization results and Quality assessment results of DeepWSD
 
-For optimization details please refer to the 'recover.py'. For DIY optimization task, please manually create new subfolders.
+For optimization, results are in 'Optimization.rar'. For optimization details please refer to the 'recover.py'. 
+For DIY optimization task, please manually create new subfolders.
 
-For Quality assessment results, MOS/DMOS score of each dataset is also provided to show the test sequence.
+For Quality assessment results, MOS/DMOS scores of each dataset is provided to show the test sequence.
