@@ -1,0 +1,2 @@
+This folder contains the optimization results and Quality assessment results of DeepWSD
+For Self test, Plese manually creat new subfolders.
