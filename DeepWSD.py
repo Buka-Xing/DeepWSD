@@ -139,7 +139,7 @@ class DeepWSD(torch.nn.Module):
                 feats1 = self.forward_once(y)
         score = 0
         layer_score=[]
-        # To see score of each layer, use debugging mode of pytorch.
+        # To see score of each layer, use debugging mode of pycharm.
 
         for k in range(len(self.chns)):
             row_padding = round(feats0[k].size(2) / window) * window - feats0[k].size(2)
