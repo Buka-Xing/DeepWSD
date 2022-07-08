@@ -83,7 +83,8 @@ class DeepWSD(torch.nn.Module):
     def __init__(self, channels=3, load_weights=True):
         assert channels == 3
         super(DeepWSD, self).__init__()
-
+        self.window = 4
+        
         vgg_pretrained_features = models.vgg16(pretrained=True).features
         self.stage1 = torch.nn.Sequential()
         self.stage2 = torch.nn.Sequential()
