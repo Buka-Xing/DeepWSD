@@ -29,7 +29,7 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 ------------------------------
 
 ## Acknowledgement:
-We thanks a lot for work of 'dingkeyan93' and work of DISTS. DeepWSD is inspired by the insightful idea and elegant code from Ding.  
+We thanks a lot for work of 'dingkeyan93' and work of DISTS. DeepWSD is inspired by the insightful idea and elegant code from him.  
 
 ------------------------------
 
