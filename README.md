@@ -25,6 +25,7 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 >python DeepWSD.py --ref images/Lena.jpg --dist images/white.jpg
 
 2. For recover.py:
+>python recover.py --ref_path 'images/Lena.jpg' --pred_path 'images/white.jpg'
 ------------------------------
 
 ## Citations:
