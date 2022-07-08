@@ -5,7 +5,7 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 ## Advantages of DeepWSD:
 1. DeepWSD is a perceptual FR-IQA which performs excellently not only in Quality Assessment Task but also in optimization tasks.
 2. DeepWSD is a complete metric which satisfy definition of metrics and may be used as a perceptual loss.
-3. DeepWSD is completely free of training and can achieve SOTA performance on several datasets.
+3. DeepWSD is completely free of training and can achieve nice performance on several datasets.
 
 -----------------------------
 
