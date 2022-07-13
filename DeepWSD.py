@@ -158,7 +158,8 @@ class DeepWSD(torch.nn.Module):
         # For optimization, the logrithm will not use.
         if as_loss:
             return score
-        # Provide two output strategies that will only affect PLCC of Quality Assessment Results.
+        # We find use log**2 output will lead to higher PLCC results, thus we provide two output strategies
+        # They will only affect PLCC of Quality Assessment Results.
         elif f==1:
             return torch.log(score + 1)
         else:
