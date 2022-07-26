@@ -112,5 +112,5 @@ for i in range(args.iter_num + 1):
         optimizer = torch.optim.Adam([pred], lr=args.lr)
 
 # Save the final results
-imageio.imwrite(args.final_save_path, args.pred_img)
+imageio.imwrite(args.final_save_path, pred_img)
 
