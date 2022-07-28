@@ -158,7 +158,7 @@ class DeepWSD(torch.nn.Module):
             score = score + tmp
         score = score / (k+1)
 
-        # For optimization, the logrithm will not use.
+        # For optimization, the logrithm will not use for numerical stability.
         if as_loss:
             return score
         # We find use log**2 output will lead to higher PLCC results, thus we provide two output strategies
