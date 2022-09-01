@@ -19,9 +19,9 @@ import torch
 from torchvision import transforms
 import torch.nn.functional as F
 
-# Transform images to tensors. If the max size of the image is larger than 512, it will be resized to 256
+# Transform images to tensors. If the max size of the image is larger than 512, it will be resized to 256 due to VGG net accept 256x256
 # However, for extremely large images, like max(H,W)>1000. This function will not process resize.
-# As a simple interpolation downsample will destroy image information. A better downsample strategy is to use conv kernel.
+# Because the simple interpolation downsample will destroy image information when size is extremely large. A better downsample strategy is to use conv kernel.
 def prepare_image(image, repeatNum = 1):
     H, W = image.size
     if max(H,W)>512 and max(H,W)<1000:
