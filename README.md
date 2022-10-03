@@ -9,7 +9,7 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 
 -----------------------------
 ## Updating log:
-2022/10/3: Find problems on batch form DeepWSD, now substitute to original single image comparison form.
+2022/10/3: Find problems on batch form DeepWSD, now substitute to original single image comparison form. Please compare images one by one.
 The batch form for optimization will be released as soon as possible.
 
 2022/8/29: Updating batch DeepWSD.
