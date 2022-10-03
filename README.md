@@ -8,7 +8,13 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 3. DeepWSD is completely free of training and can achieve nice performance on several datasets.
 
 -----------------------------
+## Updating log:
+2022/10/3: Find problems on batch form DeepWSD, now substitute to original single image comparison form.
+The batch form for optimization will be released as soon as possible.
 
+2022/8/29: Updating batch DeepWSD.
+
+-----------------------------
 ## Requirements:
 - imageio==2.9.0
 - matplotlib==3.5.0
