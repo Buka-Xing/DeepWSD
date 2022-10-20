@@ -1,6 +1,6 @@
 # DeepWSD: Deep Network based Wassterstein Distance for Image Quality Assessment
 ----------------------------
-This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual Space to Wasserstein Distance in Deep Feature Space](xxx). Related Quality Assessment results and Optimization results are in `results' folder.
+This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual Space to Wasserstein Distance in Deep Feature Space](https://arxiv.org/abs/2208.03323v1). Related Quality Assessment results and Optimization results are in `results' folder.
 
 ## Advantages of DeepWSD:
 1. DeepWSD is a perceptual FR-IQA which performs excellently not only in Quality Assessment Task but also in optimization tasks.
