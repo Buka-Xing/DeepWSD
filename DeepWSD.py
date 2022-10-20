@@ -67,7 +67,7 @@ def ws_distance(X,Y,P=2,win=4):
     X_pdf = X_1D * X_1D_pdf
     Y_pdf = Y_1D * Y_1D_pdf
 
-    wsd   = wasserstein_1d(all_samples, all_samples, X_pdf, Y_pdf, P, require_sort=False)
+    wsd   = wasserstein_1d(all_samples, all_samples, X_pdf, Y_pdf, P)
 
     L2 = ((X_1D - Y_1D) ** 2).sum(dim=0)
     w  =  (1 / ( torch.sqrt(torch.exp( (- 1/(wsd+10) ))) * (wsd+10)**2))
