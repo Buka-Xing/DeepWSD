@@ -3,13 +3,13 @@
 This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual Space to Wasserstein Distance in Deep Feature Space](https://arxiv.org/abs/2208.03323v1). Related Quality Assessment results and Optimization results are in `results' folder.
 
 ## Advantages of DeepWSD:
-1. DeepWSD is a perceptual FR-IQA which performs excellently not only in Quality Assessment Task but also in optimization tasks.
-2. DeepWSD is a complete metric which satisfy definition of metrics and may be used as a perceptual loss.
+1. DeepWSD is a perceptual FR-IQA that performs excellently not only in Quality Assessment Tasks but also in optimization tasks.
+2. DeepWSD is a complete metric that satisfies the metrics definition and may be used as a perceptual loss.
 3. DeepWSD is completely free of training and can achieve nice performance on several datasets.
 
 -----------------------------
 ## Updating log:
-2024/7/24  IEEE Transactions has accepted our new work on Image Processing, which contains the updated DeepWSD plus its deep distribution measure siblings. Please refer to [the new website](https://github.com/Buka-Xing/Deep-network-based-distribution-measures-for-full-reference-image-quality-assessment).
+2024/7/24  Our new work has been accepted by IEEE Transactions on Image Processing, which contains the updated DeepWSD plus its deep distribution measure (DeepSKLD and DeepJSD) siblings. Please refer to [the new website](https://github.com/Buka-Xing/Deep-network-based-distribution-measures-for-full-reference-image-quality-assessment).
 
 2022/10/3: Find problems on batch form DeepWSD. Now, substitute the original single-image comparison form. Please compare images one by one.
 The batch form for optimization will be released as soon as possible.
