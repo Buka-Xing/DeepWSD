@@ -9,7 +9,9 @@ This is the repository of paper [DeepWSD: Projecting Degradations in Perceptual 
 
 -----------------------------
 ## Updating log:
-2022/10/3: Find problems on batch form DeepWSD, now substitute to original single image comparison form. Please compare images one by one.
+2024/7/24  IEEE Transactions has accepted our new work on Image Processing, which contains the updated DeepWSD plus its deep distribution measure siblings. Please refer to [website](https://github.com/Buka-Xing/Deep-network-based-distribution-measures-for-full-reference-image-quality-assessment)
+
+2022/10/3: Find problems on batch form DeepWSD. Now substitute the original single image comparison form. Please compare images one by one.
 The batch form for optimization will be released as soon as possible.
 
 2022/8/29: Updating batch DeepWSD.
