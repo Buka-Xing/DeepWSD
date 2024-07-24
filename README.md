@@ -43,5 +43,3 @@ The batch form for optimization will be released as soon as possible.
 We thanks a lot for work of 'dingkeyan93' and work of DISTS. DeepWSD is mostly inspired by the insightful idea from him.  
 
 ------------------------------
-
-## Citations:
